@@ -1,0 +1,265 @@
+
+body{
+
+font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+
+  background-color:#ff4c68;
+
+  color: #FFF;
+}
+
+h1{
+
+font-family: 'Montserrat', sans-serif;
+
+font-size:3rem;
+line-height: 1.5;
+}
+
+.container-fluid{
+
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+
+font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.download_button{
+
+  margin: 5% 3% 5% 0;
+}
+
+h4{
+font-family: "Montserrat";
+text-align:center;
+padding-top: 3%;
+margin: 5%;
+}
+
+h3{
+  font-family: "Montserrat";
+  text-align: center;
+  color: #000;
+}
+
+h2
+{
+  font-family: "Montserrat";
+  color: #fff;
+}
+/* Title Image */
+
+.title-image{
+  width: 30%;
+
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+
+
+/* Features Section */
+
+#features{
+
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+
+.feature-box{
+text-align: center;
+padding: 5%;
+}
+
+.icon{
+
+  color: #ef8172;
+
+  margin-bottom: 3%;
+}
+
+/* While hovring  the icon change the color */
+
+.icon:hover{
+
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials{
+
+background-color: #ef8172;
+text-align: center;
+}
+
+.carousel-item{
+
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+#press{
+  background-color: #ef8172;
+}
+.press-image{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+  padding-left: 4%;
+}
+
+/* #pricing{
+  padding: 100%;
+} */
+
+.pricing-column{
+padding: 3% 2%;
+text-align: center;
+
+}
+
+#cta{
+background-color: #ff4c68;
+padding: 7% 15%;
+color: #fff;
+font-family: "Montserrat";
+text-align: center;
+font-size: 200%
+
+}
+
+
+@media (max-width:1028px) {
+
+#title{
+  text-align: center;
+}
+.title-image{
+    position: static;
+    transform: rotate(0deg);
+}
+}
+
+.btn-last{
+   top: 50%;
+
+}
+.downlaod-last{
+  text-align: center;
+}
+
+.contact-message {
+  width: 40%;
+  margin: auto;
+  font-family: "Montserrat";
+}
+
+
+/* contact sections */
+
+.contact-section {
+    background: #fc7f7f;
+    padding-top: 58px;
+    padding-right: 0px;
+    padding-bottom: 58px;
+    padding-left: 0px;
+}
+.contact-section .left p {
+    margin: 13px auto 0 auto;
+    max-width: 700px;
+}
+.contact-section p {
+    font-family: 'Muli';
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contact-section form input[type="text"] {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 20px 0;
+    color: #566073;
+}
+
+ .contact-form input[type="text"], input#email, input#url, #commentform textarea, .contact-form textarea {
+    font-family: 'Muli';
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.222px;
+    font-size: 13px;
+}
+
+.contact-form input[type=email], .contact-form input[type=tel], .contact-form input[type=text], .contact-form input[type=url] {
+    box-sizing: border-box;
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+/* footer */
+
+#footer{
+  padding: 7% 10%;
+  text-align: center;
+}
+.bottom-container {
+  background-color: #fff;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+.favicon-gaurav{
+  margin: 20px 10px;
+}
+.favicon-gaurav:hover{
+
+  color: #ff4c68;
+}
+
+
+#move-to-top {
+    border: none;
+    padding-top: 4px;
+    padding-right: 14px;
+    padding-bottom: 9px;
+    padding-left: 14px;
+    top: auto;
+    right: 40px;
+    bottom: 100px;
+    left: auto;
+    border-radius: 50px;
+    color: rgba(255,255,255,0.5);
+    background: #566073;
+}
